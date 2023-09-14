@@ -4,7 +4,7 @@ import classes from "./results-title.module.css";
 export default function ResultsTitle(props) {
   const { date } = props;
 
-  const humanReadableDate = new Date(date).toLocaleDateString("en-US", {
+  const humanReadableDate = new Date(date).toLocaleDateString("en-GB", {
     month: "long",
     year: "numeric",
   });

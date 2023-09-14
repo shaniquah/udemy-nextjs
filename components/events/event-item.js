@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 import Button from "../ui/button";
 import DateIcon from "../icons/date-icon";
 import AddressIcon from "../icons/address-icon";
@@ -7,12 +9,14 @@ import classes from "./event-item.module.css";
 export default function EventItem(props) {
   const { title, image, date, location, id } = props;
 
-  const humanReadableDate = new Date(date).toLocaleDateString("en-US", {
+  const humanReadableDate = new Date(date).toLocaleDateString("en-GB", {
     day: "numeric",
     month: "long",
     year: "numeric",
   });
+
   const formattedAddress = location.replace(", ", "\n");
+  
   const exploreLink = `/events/${id}`;
 
   return (
