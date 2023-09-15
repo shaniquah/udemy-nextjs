@@ -1,4 +1,4 @@
-# Welcome to my Next.js Project FSJ2! I'm Otshepeng Setuke and this was my follow along project with the NextJS Course on Udemy up to Video 168.
+# Welcome to my Next.js Project FSJ5! I'm Otshepeng Setuke and this was my follow along project with the NextJS Course on Udemy up to Video 168.
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
