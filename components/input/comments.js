@@ -33,7 +33,7 @@ export default function Comments(props) {
       },
     })
       .then((response) => response.json())
-      .then((data) => console.log(data));
+      .then((data) => console.log("Fetched comment data: ", data));
   }
 
   return (

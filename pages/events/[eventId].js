@@ -7,7 +7,7 @@ import EventContent from "@/components/event-detail/event-content";
 import ErrorAlert from "@/components/ui/error-alert";
 
 export default function EventDetailPage(props) {
-  console.log(props);
+  console.log("Event detail Props: ", props);
   const event = props.selectedEvent;
 
   if (!event) {
@@ -37,7 +37,7 @@ export default function EventDetailPage(props) {
 export async function getStaticProps(context) {
   const eventId = context.params.eventId;
 
-  console.log(eventId);
+  console.log("Dynamic Event ID: ", eventId);
 
   const event = await getEventById(eventId);
 
