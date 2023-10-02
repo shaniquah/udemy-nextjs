@@ -4,7 +4,7 @@ import classes from "./event-list.module.css";
 export default function EventList(props) {
   const { items } = props;
 
-  console.log("Prop Items: ", items);
+  console.log("EventList.js Prop Items: ", items);
 
   return (
     <ul className={classes.list}>

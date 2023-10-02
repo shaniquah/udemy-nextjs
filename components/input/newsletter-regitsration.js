@@ -18,7 +18,7 @@ export default function NewsletterRegistration() {
       },
     })
       .then((response) => response.json())
-      .then((data) => console.log("Fetched newsletter reg. data: ", data));
+      .then((data) => console.log("NewsletterRegistration.js Fetched data: ", data));
   }
 
   return (
